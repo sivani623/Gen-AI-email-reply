@@ -1,0 +1,212 @@
+[
+  {
+    "id": "e01",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "shipping_delay",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e02",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "product_question",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e03",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "shipping_delay",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e04",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "app_bug",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e05",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "shipping_delay",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e06",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e07",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e08",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e09",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e10",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e11",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "positive_feedback",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e12",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "positive_feedback",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e13",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "positive_feedback",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e14",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "product_question",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e15",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "product_question",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e16",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e17",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "shipping_delay",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e18",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e19",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "app_bug",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e20",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "app_bug",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e21",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e22",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "complaint_escalation",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e23",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "refund_request",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e24",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "product_question",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e25",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "complaint_escalation",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e26",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "positive_feedback",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e27",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "shipping_delay",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e28",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "positive_feedback",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e29",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "positive_feedback",
+    "predicted_priority": "medium"
+  },
+  {
+    "id": "e30",
+    "ok": true,
+    "generated_reply": "Hi there,\n\n[MOCK REPLY — pipeline smoke test only, not a real generated reply] Thanks for reaching out. We're looking into this and will follow up shortly.\n\nBest,\nNestwell Support",
+    "predicted_category": "product_question",
+    "predicted_priority": "medium"
+  }
+]
