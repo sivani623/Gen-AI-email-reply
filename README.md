@@ -55,16 +55,6 @@ tests/test_heuristics.py   # unit tests for the deterministic scoring layer
 Hiver-style team actually triages — `shipping_delay`, `refund_request`,
 `product_question`, `app_bug`, `complaint_escalation`, `positive_feedback`.
 
-I couldn't use real Hiver tickets (don't have access, and it'd be someone
-else's data anyway), so I wrote these with Claude's help instead of scraping
-somewhere — that also meant I could control for the thing that actually
-matters here: **every email carries ground-truth `category`/`priority` labels
-and a short list of `criteria`** — concrete, checkable things a *correct*
-reply to *that specific email* must do (e.g. *"states the 5-7 business day
-refund window, not something else"*, *"asks for an order number since none
-was given"*). Those criteria are what the evaluator grades against — see
-below.
-
 About a third of the emails are deliberately awkward on purpose: missing
 order IDs, a return outside the policy window, a duplicate charge the KB
 doesn't cover, a customer on their third angry email, one with literally no
