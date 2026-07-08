@@ -1,0 +1,1429 @@
+{
+  "per_response": [
+    {
+      "id": "e01",
+      "category": "shipping_delay",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": true,
+        "mentions_order_id": false
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Acknowledges the specific 6-day tracking stall rather than a generic 'orders can take time' response",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "References order NW-48213",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a concrete next step (checking with the carrier/logistics) without inventing a guaranteed new delivery date",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e02",
+      "category": "shipping_delay",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Asks for or attempts to locate order details since no order number was given, rather than guessing",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Apologizes for the extended delay (nearly a month is well beyond the 5-7 business day window)",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Does not promise an exact delivery date that isn't knowable",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 3,
+          "completeness": 4,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e03",
+      "category": "shipping_delay",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": true,
+        "mentions_order_id": false
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Acknowledges the expedited-shipping promise was not met for order NW-51002",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Directly addresses the refund-of-shipping-fee request rather than ignoring it",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Keeps tone apologetic/accountable, not defensive",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 4,
+          "completeness": 3,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e04",
+      "category": "shipping_delay",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": true,
+        "mentions_order_id": false
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Directly addresses whether Friday is realistic given day 5 of a 5-7 business day window, without over-promising",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "References order NW-33210",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a practical alternative or next step given the uncertainty",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 2,
+          "completeness": 2,
+          "actionability": 3,
+          "conciseness": 2
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e05",
+      "category": "shipping_delay",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Takes the dispute-threat seriously and responds with urgency/empathy rather than a generic templated line",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Asks for an order number or identifying details since none were given",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Avoids sounding dismissive given the short, angry tone",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 2,
+          "completeness": 2,
+          "actionability": 4,
+          "conciseness": 2
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e06",
+      "category": "refund_request",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": false
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Confirms the item qualifies for return (within 30 days, unused, original packaging)",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Provides clear return instructions or next steps",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "States the correct refund timeline (5-7 business days after the return is received)",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 2,
+          "completeness": 4,
+          "actionability": 2,
+          "conciseness": 3
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e07",
+      "category": "refund_request",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": true,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Correctly notes that policy requires unused items/original packaging and addresses that this one has been used, without being harsh",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Does not falsely promise a full refund if the item doesn't clearly qualify",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a reasonable path forward rather than a flat no",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 2,
+          "completeness": 2,
+          "actionability": 2,
+          "conciseness": 3
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e08",
+      "category": "refund_request",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "States the correct refund timeline: 5-7 business days after the returned item is received (not after it was mailed)",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Asks for or acknowledges missing order/tracking info if needed to check received status",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Sets realistic expectations rather than guaranteeing an exact day",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 2,
+          "completeness": 2,
+          "actionability": 2,
+          "conciseness": 2
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e09",
+      "category": "refund_request",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": false
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Recognizes this is a billing/duplicate-charge issue, not a standard product return, and doesn't misapply the 30-day return policy",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Commits to investigating/escalating the duplicate charge rather than inventing a resolution timeline not covered by the KB",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Reassures the customer this will be looked into promptly given it's a billing error",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 4,
+          "completeness": 2,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e10",
+      "category": "refund_request",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": true,
+        "mentions_order_id": false
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Correctly notes that 45 days is outside the standard 30-day return window rather than promising an automatic refund",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Handles it diplomatically given it's a possible manufacturing defect, not a change of mind — doesn't just flatly refuse",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a reasonable next step (e.g. escalate for a defect review) rather than inventing a guaranteed outcome",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 2,
+          "completeness": 3,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e11",
+      "category": "product_question",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Directly answers the washability question, or clearly says this needs to be checked rather than guessing",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Keeps the tone friendly and brief given this is a simple pre-sales question",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 2,
+          "completeness": 3,
+          "actionability": 3,
+          "conciseness": 3
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e12",
+      "category": "product_question",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Addresses both sub-questions (dimensions and assembly), not just one",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "If exact dimensions aren't available to the agent, says so clearly rather than inventing numbers",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Stays helpful and concise",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 4,
+          "completeness": 3,
+          "actionability": 4,
+          "conciseness": 2
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e13",
+      "category": "product_question",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Answers honestly based on what's knowable (site only shows gray/navy) without inventing a burgundy option or release date",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a reasonable next step if sensible (e.g. offering to flag interest) without over-promising",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 3,
+          "completeness": 4,
+          "actionability": 4,
+          "conciseness": 3
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e14",
+      "category": "product_question",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Attempts to address the comparison or clearly states the specific specs aren't available and offers to find out, rather than inventing detailed specs",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Doesn't sound like it's dodging the question entirely",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 2,
+          "completeness": 4,
+          "actionability": 4,
+          "conciseness": 3
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e15",
+      "category": "product_question",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Answers honestly based on available info, or clearly says this needs to be checked rather than assuming",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Takes the values-based question seriously and respectfully",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 4,
+          "completeness": 4,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e16",
+      "category": "app_bug",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": true,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Acknowledges the specific crash-on-order-history bug and the device/context details given",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a reasonable troubleshooting step or workaround (e.g. website) and/or commits to escalating to the tech team",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Doesn't just give a generic 'have you tried restarting' with no acknowledgment of specifics",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 4,
+          "completeness": 3,
+          "actionability": 2,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e17",
+      "category": "app_bug",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": true,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Acknowledges both possibilities raised (tracking glitch vs. a genuine delivery problem) rather than assuming only one",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Mentions the known app tracking lag as a *possible* explanation without dismissing a real missing-package concern",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Provides a next step, e.g. checking with the carrier or filing a missing-package report",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 2,
+          "completeness": 3,
+          "actionability": 2,
+          "conciseness": 2
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e18",
+      "category": "app_bug",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Recognizes this as a billing/technical hybrid issue rather than treating it as a simple app crash",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Commits to investigating/reversing the erroneous charge(s) rather than inventing a specific resolution timeline",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Treats it with appropriate urgency given it's a real financial issue",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 2,
+          "completeness": 2,
+          "actionability": 3,
+          "conciseness": 3
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e19",
+      "category": "app_bug",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": true,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Acknowledges the specific issue (reset emails not arriving after multiple attempts), not a generic 'try resetting your password'",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a concrete alternative path since the standard flow already failed 3 times",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 2,
+          "completeness": 3,
+          "actionability": 2,
+          "conciseness": 2
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e20",
+      "category": "app_bug",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Addresses the specific code (WELCOME10) and checkout error described",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a concrete resolution (apply manually, extend the offer, or escalate) rather than only apologizing",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Reflects the time-sensitivity the customer mentioned",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 3,
+          "completeness": 4,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e21",
+      "category": "complaint_escalation",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Acknowledges this is a repeat/escalated contact rather than responding as if it's a first-time request",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Avoids sounding like a generic templated apology, given the customer explicitly called that out",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Gives a concrete commitment (named escalation, timeframe) rather than vague reassurance",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 2,
+          "completeness": 4,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e22",
+      "category": "complaint_escalation",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Acknowledges the repeated wrong-item pattern (second time), not just this single instance",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Addresses the request to speak with a manager respectfully rather than deflecting",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Offers a clear corrective action (reship correct item / refund) as a next step",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 3,
+          "completeness": 2,
+          "actionability": 4,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e23",
+      "category": "complaint_escalation",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": false
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Acknowledges both damaged items from the same order and the customer's specific ask (refund, not replacement)",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Commits clearly to resolving it without unilaterally guaranteeing outcomes outside a first responder's authority",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Raises the packaging/quality issue as worth flagging internally, matching the customer's implicit point",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 2,
+          "completeness": 4,
+          "actionability": 3,
+          "conciseness": 3
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e24",
+      "category": "complaint_escalation",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": true,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Directly acknowledges the service-quality complaint itself, since that's explicitly what she's asking for",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Avoids being defensive about the previous agent's behavior",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Doesn't deflect entirely to the underlying order issue without first addressing what she raised",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 2,
+          "completeness": 3,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e25",
+      "category": "complaint_escalation",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Responds calmly and professionally rather than mirroring the hostility",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Asks a clarifying question to understand what specifically went wrong, since no details were given",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Avoids guessing at or inventing a specific issue/resolution when none was described",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 2,
+          "completeness": 2,
+          "actionability": 3,
+          "conciseness": 2
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e26",
+      "category": "positive_feedback",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Genuinely thanks the customer rather than a generic one-liner",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Addresses the embedded question about additional colors honestly, without inventing a specific release date",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 2,
+          "completeness": 2,
+          "actionability": 3,
+          "conciseness": 2
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e27",
+      "category": "positive_feedback",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Warmly acknowledges the compliment without being excessive or overly long for such a short, simple message",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 3,
+          "completeness": 2,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e28",
+      "category": "positive_feedback",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Thanks her for the kind note",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Answers the loyalty points question accurately per the KB (100 points = $5 reward), not an invented figure",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 3,
+          "tone_empathy": 4,
+          "completeness": 4,
+          "actionability": 2,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e29",
+      "category": "positive_feedback",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": true,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Replies warmly but briefly, matching the very short, casual tone rather than an overly long formal reply",
+            "met": false,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 4,
+          "tone_empathy": 3,
+          "completeness": 4,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    },
+    {
+      "id": "e30",
+      "category": "positive_feedback",
+      "composite_score": 1.0,
+      "notes": "CRITICAL: placeholder/template leakage in reply",
+      "heuristics": {
+        "has_greeting": true,
+        "has_signoff": true,
+        "placeholder_leak": true,
+        "word_count": 30,
+        "length_ok": true,
+        "category_correct": false,
+        "priority_correct": false,
+        "mentions_order_id": null
+      },
+      "judge": {
+        "criteria_results": [
+          {
+            "criterion": "Thanks her warmly and acknowledges she's a repeat customer",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          },
+          {
+            "criterion": "Answers the referral-program question honestly — the KB has no referral program, so the correct answer says so rather than inventing one",
+            "met": true,
+            "explanation": "[MOCK] heuristic placeholder, not a real judgment."
+          }
+        ],
+        "scores": {
+          "relevance_correctness": 2,
+          "tone_empathy": 2,
+          "completeness": 2,
+          "actionability": 3,
+          "conciseness": 4
+        },
+        "overall_comment": "[MOCK] placeholder judge output for pipeline testing only."
+      }
+    }
+  ],
+  "aggregate": {
+    "n": 30,
+    "n_scored": 30,
+    "mean_composite_score": 1.0,
+    "median_composite_score": 1.0,
+    "category_classification_accuracy": 0.5667,
+    "priority_classification_accuracy": 0.3,
+    "mean_rubric_scores": {
+      "relevance_correctness": 2.9,
+      "tone_empathy": 2.67,
+      "completeness": 3,
+      "actionability": 2.93,
+      "conciseness": 3.23
+    },
+    "category_breakdown": {
+      "app_bug": {
+        "mean_score": 1.0,
+        "n": 5
+      },
+      "complaint_escalation": {
+        "mean_score": 1.0,
+        "n": 5
+      },
+      "positive_feedback": {
+        "mean_score": 1.0,
+        "n": 5
+      },
+      "product_question": {
+        "mean_score": 1.0,
+        "n": 5
+      },
+      "refund_request": {
+        "mean_score": 1.0,
+        "n": 5
+      },
+      "shipping_delay": {
+        "mean_score": 1.0,
+        "n": 5
+      }
+    },
+    "bottom_n": [
+      {
+        "id": "e01",
+        "category": "shipping_delay",
+        "composite_score": 1.0,
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e02",
+        "category": "shipping_delay",
+        "composite_score": 1.0,
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e03",
+        "category": "shipping_delay",
+        "composite_score": 1.0,
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e04",
+        "category": "shipping_delay",
+        "composite_score": 1.0,
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e05",
+        "category": "shipping_delay",
+        "composite_score": 1.0,
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      }
+    ],
+    "critical_flags": [
+      {
+        "id": "e01",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e02",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e03",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e04",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e05",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e06",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e07",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e08",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e09",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e10",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e11",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e12",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e13",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e14",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e15",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e16",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e17",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e18",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e19",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e20",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e21",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e22",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e23",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e24",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e25",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e26",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e27",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e28",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e29",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      },
+      {
+        "id": "e30",
+        "notes": "CRITICAL: placeholder/template leakage in reply"
+      }
+    ]
+  }
+}
